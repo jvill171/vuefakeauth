@@ -1,19 +1,19 @@
 <template>
-    <div class="bg-purple-400">
-        <div class="container mx-auto flex items-center justify-between text-purple-50">
+    <div class="bg-red-400">
+        <div class="container mx-auto flex items-center justify-between text-red-50">
             <h1 class="tracking-tighter text-3xl font-thin">
-                Basic<span class="font-semibold">Router</span>
+                Vue<span class="font-semibold">FakeAuth</span>
             </h1>
             <nav>
                 <ul class="flex space-x-4">
                     <router-link to="/">
-                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-purple-300">Home</li>
+                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">Home</li>
                     </router-link>
                     <router-link to="/about">
-                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-purple-300">About</li>
+                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">About</li>
                     </router-link>
                     <router-link to="/hello">
-                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-purple-300">Hello</li>
+                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">Hello</li>
                     </router-link>
                 </ul>
             </nav>
