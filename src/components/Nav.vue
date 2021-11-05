@@ -20,7 +20,7 @@ const { isAuthenticated, logout } = useAuth();
                     <router-link v-if="!isAuthenticated" to="/login">
                         <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">Login</li>
                     </router-link>
-                    <div v-else class="flex flex-row">
+                    <div v-else class="flex">
                         <router-link to="/secret">
                             <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">Secret</li>
                         </router-link>
