@@ -12,8 +12,8 @@
                     <router-link to="/about">
                         <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">About</li>
                     </router-link>
-                    <router-link to="/hello">
-                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">Hello</li>
+                    <router-link to="/login">
+                        <li class="py-5 px-4 hover:cursor-pointer hover:bg-red-300">Login</li>
                     </router-link>
                 </ul>
             </nav>
